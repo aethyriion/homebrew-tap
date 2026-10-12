@@ -2,22 +2,22 @@
 class Jobsearch < Formula
   desc "Startup-focused job search pipeline and TUI"
   homepage "https://github.com/aethyriion/jobsearch"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/aethyriion/jobsearch/releases/download/v0.3.0/jobsearch-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3ff97eb368e2a5fbaa8d0662a41705fe428773e818ed6638ddc795fd06fbc221"
+      url "https://github.com/aethyriion/jobsearch/releases/download/v0.3.1/jobsearch-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "51c4f1a7823a3aa5117d6f8ebe13cdf4c26948fc35f0040e0755ce702aa23f65"
     else
-      url "https://github.com/aethyriion/jobsearch/releases/download/v0.3.0/jobsearch-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cb204e1f009d22f9346ca612be52dcebd846005af4abb445d30bccccb8245786"
+      url "https://github.com/aethyriion/jobsearch/releases/download/v0.3.1/jobsearch-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "21147460d3bfc1036cb4d6550c53f43869892179c01bc85f652d43b5787e5e38"
     end
   end
 
   on_linux do
-    url "https://github.com/aethyriion/jobsearch/releases/download/v0.3.0/jobsearch-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "8a903b420d3d98912aaef1da6a05c9afe150cd9b00fbe517a2d7995743b21d13"
+    url "https://github.com/aethyriion/jobsearch/releases/download/v0.3.1/jobsearch-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "0b347a648fb8e78389b3a997cc48d91ff925d831e94c67ed20e271e607bad85f"
   end
 
   def install
