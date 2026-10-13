@@ -22,6 +22,7 @@ class Jobsearch < Formula
 
   def install
     bin.install "jobsearch"
+    doc.install "LICENSE", "README.md"
   end
 
   def caveats
